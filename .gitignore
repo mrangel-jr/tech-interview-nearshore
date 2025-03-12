@@ -137,6 +137,9 @@ dist
 
 #plugin
 codealike.json
+CODEOWNERS
 
 # Ignores .vscode Local files
 .vscode/
+
+.DS_Store
