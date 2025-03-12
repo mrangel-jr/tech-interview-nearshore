@@ -1,0 +1,22 @@
+{
+  "name": "technical_interview-near-shore-version-2",
+  "version": "1.0.0",
+  "description": "To successfully complete the coding test the candidate will need access to an environment with the following installed: 1. [Node.js](https://nodejs.org/en) 2. [TypeScript.js](https://www.typescriptlang.org/download) 3. [Jest](https://www.typescriptlang.org/download) 4. [ts-jest](https://jestjs.io/docs/getting-started#via-ts-jest) 5. [Visual Studio Code](https://code.visualstudio.com) or other preferred text editor compatible with TypeScript",
+  "main": "jest.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "npx tsc src/StorageRent/StorageRent.ts && node src/StorageRent/StorageRent.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.4",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  }
+}
